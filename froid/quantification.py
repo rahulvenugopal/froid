@@ -26,4 +26,11 @@ def meaning_extraction(report):
     Based on a model (semantic space) we will have to develop, based on dream reports (SDDb).
     """
     raise NotImplementedError
+
+def speechgraph(report):
+    """Return a variety of graph metrics.
     
+    Validate against Java program.
+    Reference the value of speech graphs in dream studies.
+    """
+    raise NotImplementedError
