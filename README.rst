@@ -1,3 +1,5 @@
+.. -*- mode: rst -*-
+
 froid: dream analysis in Python
 ===============================
 
