@@ -8,6 +8,13 @@ __all__ = [
     "fetch_reddit",
 ]
 
+def filter_rdreams(post):
+    """Filter out non-dream r/Dreams posts based on flair.
+
+    .. seealso:: froid.scrape_reddit
+    """
+    raise NotImplementedError
+
 def fetch_hvdc():
     raise NotImplementedError
 

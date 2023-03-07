@@ -1,3 +1,1 @@
-"""
-Plotting/visualization functions.
-"""
+"""Functions to visualize results from dream analysis."""
