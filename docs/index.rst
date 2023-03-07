@@ -4,15 +4,16 @@
 froid: dream analysis in Python
 ===============================
 
-``froid`` is a Python library for analyzing dream reports. It's main modules include:
+``froid`` is a Python library for analyzing dream reports. It's main capabilities include:
 
 
 .. autosummary::
    :toctree: _autosummary
 
+   interpretation
    preprocessing
    quantification
-   interpretation
+   visualization
 
 .. * Preprocessing dream reports (e.g., transcribing and extracting)
 .. * Interpreting dreams based on various contexts

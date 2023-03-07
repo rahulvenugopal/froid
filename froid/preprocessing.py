@@ -115,16 +115,16 @@ def transcribe(filepath, method="openai", translate=False, **kwargs):
     report : str
         A dream report.
 
+    Notes
+    -----
+    Requires authorization.
+
     Examples
     --------
     >>> import froid
     >>> report = froid.transcribe("./Desktop/sub-005.wav")
     >>> print(report)
     I remember, uh, um, it's hard to remember. I was driving in the wrong lane when...
-
-    Notes
-    -----
-    Requires authorization.
     """
     valid_methods = ["openai"]
     assert isinstance(filepath, (str, pathlib.Path)), "`filepath` must be a string or Path"

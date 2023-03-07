@@ -6,6 +6,17 @@ API reference
 =============
 
 
+Interpretation
+--------------
+
+.. _interpretation:
+
+.. autosummary::
+   :toctree: _autosummary
+
+   interpret
+
+
 Preprocessing
 -------------
 
@@ -29,14 +40,15 @@ Quantification
    :toctree: _autosummary
 
    dreaminess
+   speechgraph
 
 
-Interpretation
---------------
+Visualization
+-------------
 
-.. _interpretation:
+.. _visualization:
 
 .. autosummary::
    :toctree: _autosummary
 
-   interpret
+   draw_network

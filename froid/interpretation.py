@@ -24,6 +24,10 @@ def interpret(report, context="freud", **kwargs):
     interpretation : str
         The interpretation of a dream.
 
+    Notes
+    -----
+    Dream interpretations are generated for academic purposes only.
+
     Examples
     --------
     >>> interpretation = froid.interpret(dream)
@@ -33,11 +37,6 @@ def interpret(report, context="freud", **kwargs):
     dream could represent the person's own inner turmoil, which they are trying to escape from.
     Freud would suggest that the dreamer needs to confront their own emotions and learn to accept
     them in order to move forward in life.
-
-
-    Notes
-    -----
-    Dream interpretations are generated for academic purposes only.
     """
     valid_contexts = ["freud"]
     assert isinstance(report, str), "`report` must be a string"

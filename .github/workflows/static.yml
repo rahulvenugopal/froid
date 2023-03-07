@@ -37,6 +37,8 @@ jobs:
         with:
           # Upload entire repository
           path: './docs'
+      - name: Install dev dependencies
+        run: python -m pip install sphinx_bootstrap_theme
       - name: Deploy to GitHub Pages
         id: deployment
         uses: sphinx-notes/pages@v3

@@ -86,10 +86,27 @@ html_theme_options = {
     # "bootstrap_version": "3",
     # "globaltoc_includehidden": "false",
     "navbar_links": [
+        # ("User guide", "userguide"),
         ("Functions", "api"),
+        ("Tutorial", "tutorial"),
         # ("Quickstart", "quickstart"),
         # ("FAQ", "faq"),
         # ("What's new", "changelog"),
         ("Contribute", "contribute"),
     ],
 }
+
+
+# # -- Intersphinx ------------------------------------------------
+
+# intersphinx_mapping = {
+#     # "numpy": ("http://docs.scipy.org/doc/numpy/", None),
+#     # "scipy": ("http://docs.scipy.org/doc/scipy/reference/", None),
+#     # "pandas": ("https://pandas.pydata.org/pandas-docs/stable/", None),
+#     # "sklearn": ("https://scikit-learn.org/stable/", None),
+#     "matplotlib": ("https://matplotlib.org/", None),
+#     # "mne": ("https://martinos.org/mne/stable/", None),
+#     # "seaborn": ("https://seaborn.pydata.org/", None),
+#     # "pyriemann": ("https://pyriemann.readthedocs.io/en/latest/", None),
+#     # "tensorpac": ("https://etiennecmb.github.io/tensorpac/", None),
+# }
